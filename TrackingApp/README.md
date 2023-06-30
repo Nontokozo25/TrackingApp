@@ -6,7 +6,7 @@ A  headless e commerce GraphQL API which uses Laravel as a backend.
 
 ## Installation 
 
-##### Backend APP setup 
+##### Backend APP setup
 
 First thing first we will install laravel backend api service. First thing first we will install the laravel app. 
 
@@ -24,7 +24,7 @@ To fixed the CORS in your laravel8 app. You can open `config/cors.php` and repla
     'allowed_origins' => ['http://localhost:8080'],
 
 
-Once the .env setup is done then we can install the AvoRed E commerce
+Once the .env setup is done then we can install the AvoRed E commerce 
 
     php artisan avored:install
     php artisan vendor:publish --provider="AvoRed\Framework\AvoRedServiceProvider"
